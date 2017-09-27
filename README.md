@@ -30,5 +30,13 @@ $ListName = "YourListNameHere"
 ```
 
 > #### What is my _Site Relative URL_ and my _List Name_?
-> Access your SharePoint list in a browser, then check the image below to find out the values:
+> Access your SharePoint list in a browser, then check the image below to find out the values for _Site Relative URL_ and your  _List Name_. For the list name, can use both URL encoded with _%20_ or spaces:
 > ![Relative Site](./_pictures/Site-Relative-URL.PNG)
+
+## 4. Run your script
+
+Start a PowerShell session then run the script:
+
+```powershell
+.\PS-SharePoint-List-Graph.ps1
+```
