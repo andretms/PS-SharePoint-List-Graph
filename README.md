@@ -1,5 +1,5 @@
 # Get a SharePoint List via PowerShell using Microsoft Graph API
-This sample PowerShell script demonstrate how to get  SharePoint List Items/fieds via PowerShell using the Microsoft Graph API.
+This sample PowerShell script demonstrate how to get  SharePoint List Items/fieds via PowerShell using the Microsoft Graph API via REST.
 
 ## 1. Download Microsoft Authentication Library (MSAL) Library
 This sample requires MSAL.NET library for obtaining an Access Token used to query the Microsoft Graph API. Because PowerShell does not have direct integration with nuget, follow the instructions for manual downloading MSAL.NET:
