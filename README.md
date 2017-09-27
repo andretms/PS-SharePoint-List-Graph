@@ -24,9 +24,9 @@ You need to register an application to be able to access the Microsoft Graph API
 
 ```PowerShell
 ##Please replace the three values below
-$appId = "**YourAppIdHere**" 
-$SiteRelativeUrl = "**YourSiteRelativeUrlHere**"
-$ListName = "**YourListNameHere**"
+$appId = "YourAppIdHere" 
+$SiteRelativeUrl = "YourSiteRelativeUrlHere"
+$ListName = "YourListNameHere"
 ```
 
 > #### What is my _Site Relative URL_ and my _List Name_?
