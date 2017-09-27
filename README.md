@@ -14,7 +14,7 @@ You need to register an application to be able to access the Microsoft Graph API
 1. Go to https://apps.dev.microsoft.com/portal/register-app
 2. Add a name for the application and make sure the *Guided Setup* option is **unchecked**
 3. Click `Create`
-4. Now configure the new application to be a `Native App` by clicking `Add Platforms` and selecting `Native Application`
+4. Now configure the new application to be a `Native App` by clicking `Add Platforms`, selecting `Native Application` and then click `Save`
 5. Copy the Guid under `Application Id` to the clipboard
 
 ## 3. Configure your PowerShell Script
@@ -30,5 +30,5 @@ $ListName = "YourListNameHere"
 ```
 
 > #### What is my _Site Relative URL_ and my _List Name_?
-> Access your list in a browser, then check the image below:
+> Access your SharePoint list in a browser, then check the image below to find out the values:
 > ![Relative Site](./_pictures/Site-Relative-URL.PNG)
