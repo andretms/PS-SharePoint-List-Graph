@@ -1,12 +1,12 @@
 # Get a SharePoint List via PowerShell using Microsoft Graph API
 This sample PowerShell script demonstrate how to get  SharePoint List Items/fieds via PowerShell using the Microsoft Graph API.
 
-## 1. Download MSAL Library
-This sample requires MSAL Library for obtaining an Access Token to query the Microsoft Graph API. Because PowerShell does not have direct integration with nuget, below is instructions for manual download:
+## 1. Download Microsoft Authentication Library (MSAL) Library
+This sample requires MSAL.NET library for obtaining an Access Token used to query the Microsoft Graph API. Because PowerShell does not have direct integration with nuget, follow the instructions for manual downloading MSAL.NET:
 
 1. Go to https://www.nuget.org/packages/Microsoft.Identity.Client and select 'Manual Download' to download the MSAL `nupkg` file.
 2. Rename the file extension to .zip 
-3. Extract the zip file to `{root}\packages\Microsoft.Identity.Client.1.1.0-preview` - where `{root}` is the folder where your script is saved
+3. Extract the zip file to `{path}\packages\Microsoft.Identity.Client.1.1.0-preview` - where `{path}` is the folder where your script is saved
 
 ## 2. Register an Application
 You need to register an application to be able to access the Microsoft Graph API. In order to do this:
@@ -30,7 +30,7 @@ $ListName = "YourListNameHere"
 ```
 
 > #### What is my _Site Relative URL_ and my _List Name_?
-> Access your SharePoint list in a browser, then check the image below to find out the values for _Site Relative URL_ and your  _List Name_. For the list name, can use both URL encoded with _%20_ or spaces:
+> Open your SharePoint List in a browser, then check the image below to find out the values for _Site Relative URL_ and your  _List Name_. For the list name, can use both URL encoded with _%20_ or spaces:
 > ![Relative Site](./_pictures/Site-Relative-URL.PNG)
 
 ## 4. Run your script
