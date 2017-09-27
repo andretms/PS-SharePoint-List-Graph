@@ -22,6 +22,6 @@ You need to register an application to be able to access the Microsoft Graph API
 1. Open your PowerShell script and replace the `YourAppIdHere` with the Application Id for your application you just registered
 2. Now add your Site Relative URL and the List Name by replacing the values of `YourSiteRelativeUrlHere` and `YourListNameHere`
 
-> ### What is my Site Relative URL?
-> The script consider your relative URL as shown in the image below:
+> ### What is my _Site Relative URL_ and my _List Name_?
+> The script consider your relative URL and your List Name as shown in the image below:
 > ![Relative Site](./_pictures/Site-Relative-URL.PNG)
