@@ -24,4 +24,4 @@ You need to register an application to be able to access the Microsoft Graph API
 
 > ### What is my Site Relative URL?
 > The script consider your relative URL as shown in the image below:
-> 
+> ![Relative Site](./_pictures/Site-Relative-URL.PNG)
